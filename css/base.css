@@ -1,0 +1,38 @@
+:root{
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-size: 15px;
+
+    --spartan: 'Spartan', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    width: 100vw;
+    font-family: var(--spartan);
+
+    margin: 0 auto;
+
+    padding-top: 50px ;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    max-width: 1440px;
+}
+
+@media screen and (min-width: 1440px) {
+    .desktop__cabecalho-avaliacao{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
